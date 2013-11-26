@@ -8,20 +8,20 @@ obf.py
 
  It then executes through exec(eval( )) as the original script.
 
- Usage :
- ______
+ ___________________________________________________
 
+Usage :
+ 
     * python obf.py > helloWorld.py 
     * python obf.py myCode.py > myObfCode.py
-
+_____________________________________________________
 
  Request for improvements :
- _________________________
 
     * find a way to execute crafted code with only exec(), instead of exec(eval())
     * find a way to use a smaller alphabet for the crafted code
     * make the crafted code smaller
-
+_____________________________________________________
 
  Exemple : see helloWorld.py
 
